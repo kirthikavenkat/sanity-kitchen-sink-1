@@ -1,7 +1,7 @@
 export default {
   type: 'document',
-  name: 'page',
-  title: 'Page',
+  name: 'testSanityType',
+  title: 'testSanityType',
   fields: [
     
     {

@@ -11,6 +11,18 @@ import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
 import page from './documents/page'
+import testSanityType from './documents/testSanityType'
+import array1 from './documents/array1'
+import booleanFun from './documents/booleanFun'
+import dateFun from './documents/dateFun'
+import dateTime from './documents/dateTime'
+import documents from './documents/documents'
+import fileType from './documents/fileType'
+import geoPointType from './documents/geoPointType'
+import images from './documents/images'
+import numberFun from './documents/numberFun'
+import objDef from './documents/objDef'
+
 import siteSettings from './documents/siteSettings'
 import route from './documents/route'
 
@@ -31,6 +43,8 @@ import link from './objects/link'
 import variation from './objects/variation'
 import openGraph from './objects/openGraph'
 import latex from './latex'
+import objectDef from './documents/objDef'
+import refType from './documents/refType'
 
 const allPlugs = Object.values(plugs).map((plug) => {
   return { ...plug, fields: plugDefaultFields.concat(plug.fields) }
@@ -54,6 +68,18 @@ export default createSchema({
       post,
       navMenu,
       page,
+      testSanityType,
+      array1,
+      booleanFun,
+      dateFun,
+      dateTime,
+      documents,
+      fileType,
+      geoPointType,
+      images,
+      numberFun,
+      objDef,
+      refType,
       category,
       author,
       mainImage,
